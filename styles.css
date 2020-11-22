@@ -1,0 +1,382 @@
+body {
+    font-family: "Montserrat", sans-serif;
+  }
+  p {
+    text-align: center;
+  }
+  
+  /* Header Section*/
+  .nav-image {
+    width: 38vh;
+  }
+  .header1 {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #9f7857;
+    font-size: 1rem;
+  }
+  .header2 {
+    color: #0361b8;
+    font-weight: 600;
+    margin: 5px;
+  }
+  .fa-hammer {
+    color: #0361b8;
+  }
+  .header-number {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .col-sm {
+    margin-bottom: 8px;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  /*Banner Section*/
+  .jumbotron {
+    background-image: url("images/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #eeeeee;
+    margin-bottom: -10px;
+  }
+  span {
+    font-weight: 900;
+    text-decoration: none;
+    padding-bottom: 12px;
+    background: url("images/text\ decoration.png") bottom repeat-x;
+  }
+  .banner-title {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .lead {
+    font-size: 0.8rem;
+  }
+  hr {
+    background-color: #e8d5bc;
+  }
+  .banner-button {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .trex-logo {
+    margin-top: -20px;
+    width: 30%;
+    float: right;
+  }
+  
+  /*Testimonials Section*/
+  .testimonials-section {
+    background-image: url("images/testimonial\ background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    
+  }
+  .testimonial-title {
+    padding-top: 30px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 10px;
+  }
+  .testimonials {
+    font-family: "Lato", sans-serif;
+    color: #5f3310;
+  }
+  .t-title {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .t-experience {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  .fa-star {
+    color: #dfc863;
+    margin-bottom: 20px;
+  }
+  .google-logo {
+    width: 100px;
+    margin-bottom: 40px;
+  }
+  
+  /*Form Section*/
+  .form-container {
+    margin: 30px;
+    padding: 30px 10px 30px 10px;
+  }
+  .form-section {
+    background-color: #5f341076;
+    background-image: url("images/form\ section\ image.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    color: #eeeeee;
+  }
+  .benefits-title {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin-top: 40px;
+  }
+  .benefits-sub {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  .benefits-list {
+    font-size: 0.6rem;
+    font-style: italic;
+  }
+  .benefits-list ul {
+    padding-left: 5px;
+  }
+  .benefits-list ul li {
+    list-style-type: none;
+    padding: 5px 0px 8px 0px;
+  }
+  .benefits-end {
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  /*The Actual Form*/
+  .form-title {
+    font-size: 1.2rem;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    outline: #111417;
+    text-shadow: 2px 2px#0361b8b4;
+  }
+  .validation {
+    color: #0361b8;
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+  .form {
+    background-color: #91caff;
+    padding: 30px 10px 30px 10px;
+    background-image: url("images/form\ section\ background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
+  }
+  .form input {
+    margin: 3px;
+  }
+  .form-button {
+    background-color: #0361b8;
+    color: #eeeeee;
+    font-size: 0.8rem;
+    font-family: "Lora", sans-serif;
+    font-weight: bolder;
+  }
+  
+  /*Contact Section*/
+  .contact {
+    background-color: #0361b8;
+    color: #ffffff;
+  }
+  .contact-container {
+    padding: 30px;
+  }
+  .contact-message {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 1rem;
+  }
+  .contact-number {
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 1.5rem;
+  }
+  /*Footer Section*/
+  .footer {
+    background-color: #22170f;
+    font-family: "Lato", sans-serif;
+  }
+  .copyright {
+    color: #0361b8;
+    padding: 15px 40px 15px 40px;
+    font-size: 0.5rem;
+  }
+  
+  .footer-links {
+    margin-left: -10px;
+  }
+  .footer-links li a {
+    color: #9f7857;
+    text-decoration: underline;
+    font-size: 0.7rem;
+  }
+  .footer-links li::before {
+    content: "- ";
+    color: #9f7857;
+  }
+  
+  /*******************************
+  *******Media Queries************
+  *******************************/
+  
+  /*Tablets*/
+  @media (min-width: 768px) {
+    .nav-image {
+      width: 34vh;
+    }
+    .header1 {
+      font-size: 0.8rem;
+    }
+    .header2 {
+      font-size: 0.8rem;
+    }
+    .header-number {
+      font-size: 1rem;
+    }
+  
+    /*Banner Section*/
+  
+    .banner-title {
+      font-size: 1.8rem;
+    }
+    .lead {
+      font-size: 1rem;
+    }
+    .banner-button {
+      font-size: 1.2rem;
+      margin-top: 30px;
+      margin-bottom: 50px;
+    }
+    .trex-logo {
+      width: 25%;
+    }
+  
+    /*Testimonials Section*/
+  
+    .testimonial-title {
+      font-size: 1.5rem;
+    }
+  
+    /*Form Section*/
+    .form-container {
+      margin: 30px;
+      padding: 30px 10px 30px 10px;
+    }
+  
+    .benefits-title {
+      font-size: 1.3rem;
+    }
+    .benefits-sub {
+      font-size: 0.9rem;
+    }
+    .benefits-list {
+      font-size: 0.7rem;
+    }
+    .benefits-list ul {
+      padding-left: 2px;
+    }
+  
+    /*The Actual Form*/
+  
+    .validation {
+      font-size: 0.5rem;
+    }
+  
+    /*Footer Section*/
+  
+    .copyright {
+      font-size: 0.7rem;
+    }
+  }
+  
+  /*Desktops/Laptops*/
+  @media (min-width: 992px) {
+    .header1 {
+      font-size: 1rem;
+    }
+    .header2 {
+      font-size: 1rem;
+    }
+    .header-number {
+      font-size: 1.2rem;
+    }
+  
+    /*Banner Section*/
+  
+    .banner-title {
+      font-size: 2rem;
+    }
+    .lead {
+      font-size: 1.2rem;
+    }
+    .banner-button {
+      margin-bottom: 50px;
+    }
+    .trex-logo {
+      width: 20%;
+    }
+  
+    /*Testimonials Section*/
+  
+    .testimonial-title {
+      font-size: 1.7rem;
+    }
+  
+    /*Form Section*/
+    .form-container {
+      margin: 30px;
+      padding: 30px 10px 30px 10px;
+    }
+    .benefits-end {
+      font-size: 1.1rem;
+    }
+  
+    /*The Actual Form*/
+  
+    .validation {
+      font-size: 0.6rem;
+    }
+  
+    /*Footer Section*/
+  
+    .copyright {
+      font-size: 0.8rem;
+    }
+  }
+  /*Large Desktops*/
+  @media (min-width: 1200px) {
+    .nav-image {
+      width: 44vh;
+    }
+    .header1 {
+      font-size: 1rem;
+    }
+    .header2 {
+      font-size: 1rem;
+    }
+    .header-number {
+      font-size: 1.2rem;
+    }
+  
+    /*Banner Section*/
+  
+    .banner-title {
+      font-size: 2.2rem;
+    }
+    .lead {
+      font-size: 1.3rem;
+    }
+    .banner-button {
+      font-size: 1.4rem;
+      margin-bottom: 50px;
+    }
+    .trex-logo {
+      width: 15%;
+    }
+  }
+  
